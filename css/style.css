@@ -77,16 +77,19 @@ p {
 .bg-light {
   background: #333;
   color: #fff;
+  
 }
 
 .bg-light {
   background: #f4f4f4;
   color: #333;
+  
 }
 
 .bg-primary {
-  background: #0c2461;
+  background: #333;
   color: #fff;
+
 }
 
 .clr {
@@ -221,18 +224,28 @@ p {
   margin-bottom: 10px;
 }
 
+.box h3{
+  font-size: 20px;
+}
+
+.box h3 p{
+  font-size: 15px;
+}
+
 /* About Info */
 #about-info .info-right {
-  float: right;
+  float: left;
   width: 50%;
   min-height: 100%;
 }
 
 #about-info .info-left {
-  float: left;
-  width: 50%;
+  float: right;
+  width: 40%;
   min-height: 100%;
-  text-align: right;
+  text-align: center;
+  margin-top: 50px;
+
 }
 
 /* Testimonials */
@@ -240,11 +253,12 @@ p {
   height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 100px;
-  text-align: right;
+  text-align: left;
 }
 
 #testimonials h2 {
   color: #fff;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -292,7 +306,7 @@ p {
 /* Footer */
 #main-footer {
   text-align: center;
-  background: #0c2461;
+  background: #333;
   color: #fff;
   padding: 20px;
 }
